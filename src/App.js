@@ -55,7 +55,7 @@ export default function App() {
           Age:
           <input
             type="number"
-            value="name"
+            value={age}
             onChange={(e) => setAge(e.target.value)}
           />
         </label>
